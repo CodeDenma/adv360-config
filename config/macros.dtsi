@@ -2,8 +2,9 @@ macro_ctrl_shift_alt: macro_ctrl_shift_alt{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_shift_alt";
 #binding-cells = <0>;
-bindings = <&mo LCTRL>, <&mo LEFT_SHIFT>, <&mo LEFT_ALT>;
+bindings = <&hold_multiple_keys>;
 };
+
 macro_kor_eng: macro_kor_eng{
 compatible = "zmk,behavior-macro";
 label = "macro_kor_eng";
