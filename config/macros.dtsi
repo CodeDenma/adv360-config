@@ -2,13 +2,13 @@ macro_ctrl_shift_alt: macro_ctrl_shift_alt{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_shift_alt";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp LEFT_ALT>;
+bindings = <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_ALT>;
 };
 macro_kor_eng: macro_kor_eng{
 compatible = "zmk,behavior-macro";
-label = "macro_kor/eng";
+label = "macro_kor_eng";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp SPACE>;
+bindings = <&kp LEFT_SHIFT &kp SPACE>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
