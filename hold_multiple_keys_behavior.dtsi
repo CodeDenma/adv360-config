@@ -1,7 +1,0 @@
-{
-    hold_multiple_keys: behavior_hold_multiple_keys {
-        compatible = "zmk,behavior-keys-press";
-        label = "BEHAVIOR_HOLD_MULTIPLE_KEYS";
-        bindings = <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_ALT>;
-    };
-};
