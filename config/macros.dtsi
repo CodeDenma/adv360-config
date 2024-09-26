@@ -54,9 +54,9 @@ label = "macro_nvim_select_all";
 bindings = <&kp G>, <&kp G>, <&kp LS(V)>, <&kp LS(G)>;
 };
 
-macro_tmux_copy_mode: macro_tmux_copy_mode{
+macro_tmux_search: macro_tmux_search{
 compatible = "zmk,behavior-macro";
-label = "macro_tmux_copy_mode";
+label = "macro_tmux_search";
 #binding-cells = <0>;
-bindings = <&kp RC(B)>, <&kp F>;
+bindings = <&kp RC(B)>, <&kp F>, <&kp SLASH>;
 };
